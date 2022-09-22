@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Inter&family=Karla&family=Noto+Sans&family=Poppins&family=Raleway:wght@500&display=swap');
+*
+{
+    font-family: 'Anek Telugu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type=text],
+input[type=email],
+input[type=phone],
+input[type=password]
+{
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #777;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    
+    /* margin-bottom: 16px; */
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=phone]:focus,
+input[type=password]:focus
+{
+    outline: none;
+   
+}
+.registration__section
+{
+    height: 95vh;
+}
+.form-outline 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zmdi
+{
+    padding-left: 10px;
+}
+
+.mbtm-4
+{
+    margin-bottom: 30px;
+}
